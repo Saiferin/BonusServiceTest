@@ -37,12 +37,12 @@ class StatisticsServiceTest {
     @Test
     void lessThanAverage() {
 
-        assertEquals(5, service.lessThanAverage(purchases));
+        assertEquals(12, service.lessThanAverage(purchases));
     }
 
     @Test
     void moreThanAverage() {
 
-      assertEquals(5, service.moreThanAverage(purchases));
+      assertEquals(12, service.moreThanAverage(purchases));
     }
 }
